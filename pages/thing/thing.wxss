@@ -1,0 +1,32 @@
+/* pages/thing/thing.wxss */
+.menu{
+  background-color:lightblue;
+  display: flex;
+}
+page{
+  height: 100%;
+  width: 100%;
+}
+image{
+  width: 100%;
+  align-items: center;
+}
+.center{
+  padding-top: 100px;
+}
+.tianjia{
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color:white;
+  margin-left: auto;
+  margin-top:auto;
+}
+.juzhong{
+  margin: auto;
+}

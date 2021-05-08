@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/shezhi/shezhi",
+    "pages/thing/thing",
+    "pages/settings/settings",
+    "pages/statistics/statistics",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tianjia/tianjia",
+    "pages/xiangce/xiangce",
+    "pages/fenlei/fenlei",          
+    "pages/huishou/huishou",
+    "pages/mima/mima",
+    "pages/lianxi/lianxi",
+    "pages/fangjian/fangjian"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff4",
+    "navigationBarTitleText": "我记得",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/物品1.png",
+        "iconPath": "images/物品.png",
+        "pagePath": "pages/thing/thing",
+        "text": "我的物品"
+      },
+      {
+        "selectedIconPath": "images/统计1.png",
+        "iconPath": "images/统计.png",
+        "pagePath": "pages/statistics/statistics",
+        "text": "统计"
+      }, 
+      {
+        "selectedIconPath": "images/设置1.png",
+        "iconPath": "images/设置.png",
+        "pagePath": "pages/settings/settings",
+        "text": "设置"
+      }
+    ]
+  }
+  
+}

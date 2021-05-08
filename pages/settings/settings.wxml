@@ -1,0 +1,55 @@
+<!--pages/settings/settings.wxml-->
+<view class="media media-x gzlheader">
+  <view class="float-left">
+    <view class="userinfo-avatar" bindtap="bindViewTap">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName" class="userinfo"></open-data>
+  </view>
+</view>
+<view class="media-body">
+  <view>{{userInfo.nickName}}</view>
+</view>
+<view class="gzlspace"></view>
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou"></text>
+  <text class="float-left iconfont icon-paixu"></text>
+  <text>默认排序</text>
+</view >
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou" bindtap="go1"></text>
+  <text class="float-left iconfont icon-fenlei"></text>
+  <text>分类</text>
+</view>
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou" bindtap="go2"></text>
+  <text class="float-left iconfont icon-fangjian"></text>
+  <text>房间</text>
+</view>
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou" bindtap="go3"></text>
+  <text class="float-left iconfont icon-xiangce"></text>
+  <text>相册</text>
+</view>
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou" bindtap="go4"></text>
+  <text class="float-left iconfont icon-huishouzhan"></text>
+  <text>回收站</text>
+</view><view class="gzlspace"></view>
+
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou" bindtap="go5"></text>
+  <text class="float-left iconfont icon-mima"></text>
+  <text>密码和指纹</text>
+</view><view class="gzlspace"></view>
+
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou" bindtap="go6"></text>
+  <text class="float-left iconfont icon-lianxi"></text>
+  <text>联系作者</text>
+</view>
+<view class="border-buttom">
+  <text class="float-right iconfont icon-youjiantou"  bindtap="go7"></text>
+  <text class="float-left iconfont icon-shezhi"></text>
+  <text>设置</text>
+</view>

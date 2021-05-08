@@ -1,0 +1,19 @@
+<!--pages/shezhi/shezhi.wxml-->
+<view class="flex kapian">
+  <view class="border-buttom">
+    <text class="float-right iconfont icon-youjiantou"></text>
+    <text class="float-left iconfont icon-6nichengzhao"></text>
+    <text>修改昵称</text>
+  </view>
+  <view class="border-buttom">
+    <text class="float-right iconfont icon-youjiantou"></text>
+    <text class="float-left iconfont icon-touxiang"></text>
+    <text>修改头像</text>
+  </view>
+  <view class="border-buttom">
+    <text class="float-right iconfont icon-youjiantou"></text>
+    <text class="float-left iconfont icon-shouji"></text>
+    <text>绑定手机号</text>
+  </view>
+</view>
+<view class="tuichu">退出登录</view>

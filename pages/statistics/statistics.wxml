@@ -1,0 +1,21 @@
+<!--pages/statistics/statistics.wxml-->
+<view class="sum flex">
+  <view class="flex-item-1 aumo">
+    <view class="text-yellow">{{}}0</view>
+    <view>物品数量</view>
+  </view>
+  <view class="flex-item-2 aumo">
+    <view class="text-green">{{}}0.00</view>
+    <view>物品总价</view>
+  </view>
+  <view class="flex-item-3 aumo">
+    <view class="text-blue">{{}}0</view>
+    <view>物品分类</view>
+  </view>
+</view>
+<view class="kapian0">
+
+</view>
+<view class="kapian1">
+
+</view>

@@ -1,0 +1,44 @@
+/* pages/statistics/statistics.wxss */
+.sum{
+  padding:20px 0;
+  background-color:rgb(2, 221, 250);
+  border-radius:10px;
+  margin: 20px 10px 0 10px;
+}
+.text-yellow{
+  color: orange;
+}
+.text-green{
+  color:rgb(52, 156, 31);
+}
+.text-blue{
+  color: rgb(55, 58, 224);
+}
+.aumo{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  
+}
+.flex{
+  display: flex;
+ flex-direction: row;
+ justify-content:space-around;
+}
+.kapian0{
+  height: 100px;
+  padding:20px 0;
+  background-color:rgb(2, 221, 250);
+  border-radius:10px;
+  margin: 20px 10px 0 10px;
+}
+.kapian1{
+  height: 200px;
+  padding:20px 0;
+  background-color:rgb(2, 221, 250);
+  border-radius:10px;
+  margin: 20px 10px 0 10px;
+}

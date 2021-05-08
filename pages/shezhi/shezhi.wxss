@@ -1,0 +1,31 @@
+/* pages/shezhi/shezhi.wxss */
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.text-color {
+  color: gray;
+}
+.kapian{
+  margin-top: 30px;
+  background-color: rgb(230, 231, 143);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tuichu{
+  margin-top: 20px;
+  height: 30px;
+  background-color: rgb(230, 231, 143);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

@@ -1,0 +1,3 @@
+<!--pages/thing/thing.wxml-->
+<image src="https://i01piccdn.sogoucdn.com/e9aca555719ffe37" mode="heightFix" class="center"></image>
+<view class="tianjia">+</view>
